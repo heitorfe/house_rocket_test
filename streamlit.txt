@@ -1,0 +1,16 @@
+st.set_page_config(layout = 'wide') --> utiliza todo o espaço da tela
+
+st.title() --> título
+
+c1, c2 = st.beta_columns((2,1))  --> configura a tela em containers, tamanhos proporcionais
+
+c1.header('titulo')
+
+st.write() --> output
+
+st.dataframe(data, widght = , height =) --> output de dados
+
+@st.cache(allow_output_mutation=True)    --> carrega a função no cache
+
+st.sidebar.multiselect('Title', options)  --> Filtro na sidebar (seleção)
+
